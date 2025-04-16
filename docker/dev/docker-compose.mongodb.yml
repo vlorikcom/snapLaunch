@@ -7,7 +7,7 @@ services:
       - "3000:3000"
     environment:
       - NODE_ENV=development
-      - MONGODB_URI=mongodb://devroot:devpass@mongodb:27017/shipfreedev?authSource=admin
+      - MONGODB_URI=mongodb://devroot:devpass@mongodb:27017/snapLaunchdev?authSource=admin
       - HUSKY=0
     volumes:
       - ../../:/app

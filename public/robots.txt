@@ -3,4 +3,4 @@ User-agent: *
 Disallow: /auth/
 Allow: /
 
-Sitemap: https://shipfree.idee8.agency.com/sitemap.xml
+Sitemap: https://snapLaunch.idee8.agency.com/sitemap.xml

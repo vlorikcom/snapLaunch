@@ -7,7 +7,7 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <span className="text-xl font-semibold text-white">
-                ⚡ ShipFree
+                ⚡ snapLaunch
               </span>
             </div>
             <p className="text-sm text-zinc-400">Built for makers, by makers</p>
@@ -15,7 +15,7 @@ export default function Footer() {
               Copyright © 2025 - All rights reserved
             </p>
             <div className="inline-flex items-center gap-2 rounded-md border border-zinc-500 bg-zinc-800/50 px-4 py-2 text-xs text-zinc-400">
-              Built with ⚡ ShipFree
+              Built with ⚡ snapLaunch
             </div>
           </div>
 
@@ -49,7 +49,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://github.com/idee8/shipfree"
+                  href="https://github.com/idee8/snapLaunch"
                   target="_blank"
                   className="text-zinc-400 hover:text-white"
                 >
@@ -58,7 +58,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://shipfree.idee8.agency/docs"
+                  href="https://snapLaunch.idee8.agency/docs"
                   target="_blank"
                   className="text-zinc-400 hover:text-white"
                 >
@@ -107,7 +107,7 @@ export default function Footer() {
           {/* By the Creator Column */}
           <div>
             <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-zinc-400">
-              🌎 By the Creator of ShipFree
+              🌎 By the Creator of snapLaunch
             </h3>
             <ul className="space-y-3 text-sm">
               {/* {["idee8.agency", "React AI", "Code Mentor"].map((item) => ( */}
@@ -166,7 +166,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 border-t border-zinc-800 pt-8 text-center text-sm text-zinc-500">
-          © 2025 ShipFree. All Rights Reserved. Cooked for you by{" "}
+          © 2025 snapLaunch. All Rights Reserved. Cooked for you by{" "}
           <a
             href="https://idee8.agency"
             className="text-zinc-400 hover:text-white"

@@ -11,25 +11,25 @@ const faqs: FAQItem[] = [
   {
     question: "Is this really free?",
     answer:
-      "Yes! ShipFree is open-source and community-driven. Use it for unlimited projects, no strings attached.",
+      "Yes! snapLaunch is open-source and community-driven. Use it for unlimited projects, no strings attached.",
   },
   {
-    question: "What do I need to use ShipFree?",
+    question: "What do I need to use snapLaunch?",
     answer:
       "All you need is a GitHub account to clone the repo and a deployment platform like Vercel or Railway.",
   },
   {
     question: "Can I customize it?",
     answer:
-      "Built with Next.js, Tailwind, and modern tools, ShipFree is fully extensible.",
+      "Built with Next.js, Tailwind, and modern tools, snapLaunch is fully extensible.",
   },
   {
     question: "How does it compare to ShipFast?",
     answer:
-      "ShipFast is paid; ShipFree gives you similar core features—completely free! Perfect for bootstrappers who want to launch now.",
+      "ShipFast is paid; snapLaunch gives you similar core features—completely free! Perfect for bootstrappers who want to launch now.",
   },
   {
-    question: "Does ShipFree include a database?",
+    question: "Does snapLaunch include a database?",
     answer: "Yes! It supports MongoDB and Supabase out of the box.",
   },
   {
@@ -43,20 +43,20 @@ const faqs: FAQItem[] = [
       "We have detailed documentation, video tutorials, and community support to guide you.",
   },
   {
-    question: "Can I contribute to ShipFree?",
+    question: "Can I contribute to snapLaunch?",
     answer:
-      "ShipFree is open-source—we welcome contributions from developers worldwide.",
+      "snapLaunch is open-source—we welcome contributions from developers worldwide.",
   },
 
   {
-    question: "Can I use ShipFree for commercial projects?",
+    question: "Can I use snapLaunch for commercial projects?",
     answer:
-      "Yes! You can launch and scale real businesses with ShipFree. No restrictions.",
+      "Yes! You can launch and scale real businesses with snapLaunch. No restrictions.",
   },
   {
     question: "Is there a roadmap for future features?",
     answer:
-      "Yes! We're constantly improving ShipFree. Check our GitHub roadmap to see what's coming next.",
+      "Yes! We're constantly improving snapLaunch. Check our GitHub roadmap to see what's coming next.",
   },
 ];
 

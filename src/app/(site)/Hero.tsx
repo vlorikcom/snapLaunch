@@ -25,19 +25,19 @@ const HeroSection = () => {
           </h1>
 
           <p className="text-base text-[#CFCFCF] mb-8 max-w-2xl mx-auto lg:mx-0">
-            Tired of wasting time on setup instead of build? ShipFree is the
+            Tired of wasting time on setup instead of build? snapLaunch is the
             fastest way to launch your SaaS, AI tool, or web app—for free. No
             setup headaches, no paywalls—just build and ship!
           </p>
 
           <Link
-            href="https://github.com/idee8/shipfree"
+            href="https://github.com/idee8/snapLaunch"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex mt-5 items-center justify-center gap-2 bg-[#FFBE1A] hover:bg-yellow-500 text-black px-8 sm:px-20 py-3 rounded-xl font-medium text-lg mb-6 duration-300 transition-colors"
           >
             <Zap fill="#000000" className="w-5 h-5" />
-            Get ShipFree
+            Get snapLaunch
           </Link>
 
           <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
