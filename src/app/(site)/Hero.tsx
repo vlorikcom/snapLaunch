@@ -18,20 +18,20 @@ const HeroSection = () => {
           </div>
 
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4 text-[#CFCFCF] leading-tight">
-            Ship your startup
+            Launch your startup
             <br />
-            in days,{" "}
+            in a snap,{" "}
             <span className="bg-[#CFCFCF] text-[#2E1A05] px-2">not weeks</span>
           </h1>
 
           <p className="text-base text-[#CFCFCF] mb-8 max-w-2xl mx-auto lg:mx-0">
             Tired of wasting time on setup instead of build? snapLaunch is the
             fastest way to launch your SaaS, AI tool, or web app—for free. No
-            setup headaches, no paywalls—just build and ship!
+            setup headaches, no paywalls—just build and launch!
           </p>
 
           <Link
-            href="https://github.com/idee8/snapLaunch"
+            href="https://github.com/vlorikcom/snapLaunch"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex mt-5 items-center justify-center gap-2 bg-[#FFBE1A] hover:bg-yellow-500 text-black px-8 sm:px-20 py-3 rounded-xl font-medium text-lg mb-6 duration-300 transition-colors"
@@ -71,8 +71,8 @@ const HeroSection = () => {
                   ))}
                 </div>
                 <p className="text-zinc-100 mt-1 text-sm sm:text-base">
-                  <span className="font-medium">6301</span>
-                  <span className="text-zinc-400 ml-2">makers ship faster</span>
+                  <span className="font-medium">1007</span>
+                  <span className="text-zinc-400 ml-2">makers launch faster</span>
                 </p>
               </div>
             </div>

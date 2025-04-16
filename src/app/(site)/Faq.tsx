@@ -79,7 +79,7 @@ export default function FAQ() {
         <p className="mb-12 text-center text-base text-zinc-500">
           Have another question? Contact us on{" "}
           <a
-            href="https://x.com/idee8agency"
+            href="https://x.com/vlorik"
             target="_blank"
             className="text-zinc-200 hover:text-white underline"
           >
@@ -87,7 +87,7 @@ export default function FAQ() {
           </a>{" "}
           or by{" "}
           <a
-            href="mailto:hi@idee8.agency"
+            href="mailto:contact@vlorik.com"
             target="_blank"
             className="text-zinc-200 hover:text-white underline"
           >

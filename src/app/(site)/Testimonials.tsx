@@ -37,7 +37,7 @@ export default function TestimonialsPage() {
     },
     {
       name: "Matt Merrick",
-      text: "I launched with snapLaunch boilerplate and have <span class='font-bold text-pink-400'>landed 5 new customers</span>! Thanks @idee8agency",
+      text: "I launched with snapLaunch boilerplate and have <span class='font-bold text-pink-400'>landed 5 new customers</span>! Thanks @vlorik",
       role: "Founder",
       avatar:
         "https://pbs.twimg.com/profile_images/1865828164947099648/v0SAw6WI_400x400.jpg",

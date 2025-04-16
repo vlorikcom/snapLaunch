@@ -10,7 +10,7 @@ export default function CTA() {
           section...
         </p>
         <a
-          href="https://github.com/idee8/snapLaunch"
+          href="https://github.com/vlorikcom/snapLaunch"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 rounded-lg bg-[#FFB800] px-6 py-3 text-base font-medium text-black transition-colors hover:bg-[#FFB800]/90"

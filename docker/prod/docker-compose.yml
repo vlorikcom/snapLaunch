@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   app:
-    image: ghcr.io/idee8/snapLaunch:latest
+    image: ghcr.io/vlorik/snapLaunch:latest
     ports:
       - "3000:3000"
     environment:
