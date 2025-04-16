@@ -27,7 +27,7 @@ export default function MakerIntro() {
               >
                 snapLaunch
               </a>{" "}
-              at <strong>idee8</strong> to remove those roadblocks and help
+              at <strong>VLorik</strong> to remove those roadblocks and help
               founders launch faster—**for free**.
             </p>
           </div>

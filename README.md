@@ -114,7 +114,7 @@ Portainer is included in both development and production setups to help you mana
 
 ## Docs
 
-For full documentation, visit: [snapLaunch Docs](https://snapLaunch.idee8.agency/docs)
+For full documentation, visit: [snapLaunch Docs](https://snapLaunch.vlorik.com/docs)
 
 ## Code of Conduct
 
@@ -126,4 +126,4 @@ For people who want to contribute, please refer to [CONTRIBUTING.md](CONTRIBUTIN
 
 ---
 
-Cooked for you with ❤️ by [Idee8](https://idee8.agency)
+Cooked for you with ❤️ by [VLorik](https://vlorik.com)

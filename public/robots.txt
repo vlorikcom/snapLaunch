@@ -3,4 +3,4 @@ User-agent: *
 Disallow: /auth/
 Allow: /
 
-Sitemap: https://snapLaunch.idee8.agency.com/sitemap.xml
+Sitemap: https://snapLaunch.vlorik.com/sitemap.xml

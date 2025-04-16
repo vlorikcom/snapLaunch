@@ -40,7 +40,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://x.com/idee8agency"
+                  href="https://x.com/vlorik"
                   target="_blank"
                   className="text-zinc-400 hover:text-white"
                 >
@@ -49,7 +49,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://github.com/idee8/snapLaunch"
+                  href="https://github.com/vlorik/snapLaunch"
                   target="_blank"
                   className="text-zinc-400 hover:text-white"
                 >
@@ -58,7 +58,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://snapLaunch.idee8.agency/docs"
+                  href="https://snapLaunch.vlorik.com/docs"
                   target="_blank"
                   className="text-zinc-400 hover:text-white"
                 >
@@ -110,19 +110,18 @@ export default function Footer() {
               🌎 By the Creator of snapLaunch
             </h3>
             <ul className="space-y-3 text-sm">
-              {/* {["idee8.agency", "React AI", "Code Mentor"].map((item) => ( */}
               <li>
                 <a
-                  href="https://idee8.agency"
+                  href="https://vlorik.com"
                   target="_blank"
                   className="text-zinc-400 hover:text-white"
                 >
-                  Idee8
+                  VLorik
                 </a>
               </li>
               <li>
                 <a
-                  href="https://codementor.idee8.agency"
+                  href="https://vlorik.com"
                   className="text-zinc-400 hover:text-white"
                   target="_blank"
                 >
@@ -131,7 +130,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://reactai.idee8.agency"
+                  href="https://vlorik.com"
                   className="text-zinc-400 hover:text-white"
                   target="_blank"
                 >
@@ -168,10 +167,10 @@ export default function Footer() {
         <div className="mt-12 border-t border-zinc-800 pt-8 text-center text-sm text-zinc-500">
           © 2025 snapLaunch. All Rights Reserved. Cooked for you by{" "}
           <a
-            href="https://idee8.agency"
+            href="https://vlorik.com"
             className="text-zinc-400 hover:text-white"
           >
-            idee8.agency
+            VLorik
           </a>
           .
         </div>
