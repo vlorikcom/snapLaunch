@@ -7,7 +7,7 @@ services:
       - "3000:3000"
     environment:
       - NODE_ENV=development
-      - DATABASE_URL=postgresql://devuser:devpass@postgres:5432/shipfreedev
+      - DATABASE_URL=postgresql://devuser:devpass@postgres:5432/snapLaunchdev
       - HUSKY=0
     volumes:
       - ../../:/app
@@ -20,13 +20,13 @@ services:
     environment:
       - POSTGRES_USER=devuser
       - POSTGRES_PASSWORD=devpass
-      - POSTGRES_DB=shipfreedev
+      - POSTGRES_DB=snapLaunchdev
     ports:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U devuser -d shipfreedev"]
+      test: ["CMD-SHELL", "pg_isready -U devuser -d snapLaunchdev"]
       interval: 5s
       timeout: 5s
       retries: 5

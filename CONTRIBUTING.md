@@ -1,6 +1,6 @@
-# Contributing to ShipFree
+# Contributing to snapLaunch
 
-Thank you for considering contributing to ShipFree! We welcome contributions from the community.
+Thank you for considering contributing to snapLaunch! We welcome contributions from the community.
 
 ## How to Contribute
 
@@ -9,8 +9,8 @@ Thank you for considering contributing to ShipFree! We welcome contributions fro
 2. **Clone your fork**:
 
    ```sh
-   git clone https://github.com/your-username/shipfree.git
-   cd shipfree
+   git clone https://github.com/your-username/snapLaunch.git
+   cd snapLaunch
    ``` 
     
 3. **Create a branch**:

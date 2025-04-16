@@ -55,7 +55,7 @@ export default function PricingSection() {
 
             <button
               onClick={() =>
-                window.open("https://github.com/idee8/shipfree", "_blank")
+                window.open("https://github.com/idee8/snapLaunch", "_blank")
               }
               className="w-full bg-green-500 hover:bg-green-400 transition-colors text-black font-semibold py-3 px-4 rounded-lg flex items-center justify-center gap-2"
             >

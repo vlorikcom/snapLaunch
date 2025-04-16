@@ -25,7 +25,7 @@ export default function MakerIntro() {
                 href="#"
                 className="text-white hover:text-gray-200 underline underline-offset-2"
               >
-                ShipFree
+                snapLaunch
               </a>{" "}
               at <strong>idee8</strong> to remove those roadblocks and help
               founders launch faster—**for free**.
@@ -34,7 +34,7 @@ export default function MakerIntro() {
         </div>
 
         <div className="space-y-6">
-          <p className="text-base">We created ShipFree for 3 reasons:</p>
+          <p className="text-base">We created snapLaunch for 3 reasons:</p>
 
           <ol className="space-y-4 list-decimal list-inside">
             <li className="text-base">
@@ -54,7 +54,7 @@ export default function MakerIntro() {
           </ol>
 
           <p className="text-base">
-            Thousands of founders have used ShipFree to{" "}
+            Thousands of founders have used snapLaunch to{" "}
             <a
               href="#"
               className="text-white hover:text-gray-200 underline underline-offset-2"

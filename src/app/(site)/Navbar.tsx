@@ -8,7 +8,7 @@ import { getGitHubStars } from "@/utils/github";
 export default function Navbar() {
   const [stars, setStars] = useState<number | null>(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const repo = "idee8/shipfree";
+  const repo = "idee8/snapLaunch";
 
   useEffect(() => {
     getGitHubStars(repo).then(setStars);
@@ -36,7 +36,7 @@ export default function Navbar() {
               stroke="black"
               strokeWidth={1.4}
             />
-            <span className="text-lg font-semibold text-white">ShipFree</span>
+            <span className="text-lg font-semibold text-white">snapLaunch</span>
           </Link>
         </div>
 

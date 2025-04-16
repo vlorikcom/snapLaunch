@@ -1,8 +1,8 @@
-# ⚡ ShipFree
+# ⚡ snapLaunch
 
 Hi there! 👋
 
-ShipFree is a free alternative to ShipFast, designed to simplify and optimize your shipping process. It’s built using modern web technologies like Next.js, Supabase, Stripe, LemonSqueezy, Drizzle ORM and Mailgun.
+snapLaunch is a free alternative to ShipFast, designed to simplify and optimize your shipping process. It’s built using modern web technologies like Next.js, Supabase, Stripe, LemonSqueezy, Drizzle ORM and Mailgun.
 
 
 ## Features
@@ -15,7 +15,7 @@ ShipFree is a free alternative to ShipFast, designed to simplify and optimize yo
 
 ## Docker Setup
 
-ShipFree provides Docker configurations for both **development** and **production** environments. Below, you'll find the structure of the Docker files and the commands to get started.
+snapLaunch provides Docker configurations for both **development** and **production** environments. Below, you'll find the structure of the Docker files and the commands to get started.
 
 ### Docker File Structure
  
@@ -114,7 +114,7 @@ Portainer is included in both development and production setups to help you mana
 
 ## Docs
 
-For full documentation, visit: [ShipFree Docs](https://shipfree.idee8.agency/docs)
+For full documentation, visit: [snapLaunch Docs](https://snapLaunch.idee8.agency/docs)
 
 ## Code of Conduct
 
