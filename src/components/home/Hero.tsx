@@ -20,7 +20,7 @@ const HeroSection = () => {
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4 text-[#CFCFCF] leading-tight">
             Launch your startup
             <br />
-            in a snap,{" "}
+            in days,{" "}
             <span className="bg-[#CFCFCF] text-[#2E1A05] px-2">not weeks</span>
           </h1>
 
@@ -47,12 +47,14 @@ const HeroSection = () => {
                 "https://pbs.twimg.com/profile_images/1855635236509388800/PFMQ949e_400x400.jpg",
                 "https://pbs.twimg.com/profile_images/933422170499371008/drhhIn0z_400x400.jpg",
                 "https://pbs.twimg.com/profile_images/1870096957370445827/PQrjfHGt_400x400.jpg",
-                "https://pbs.twimg.com/profile_images/1850639995444371456/9rbx-lYe_400x400.jpg",
+                "https://pbs.twimg.com/profile_images/1784563357300740096/2DyzEa9d_400x400.jpg",
               ].map((avatar, index) => (
-                <img
+                <Image
                   key={index}
                   src={avatar || "/placeholder.svg"}
                   alt={`User ${index + 1}`}
+                  width={40}
+                  height={40}
                   className="w-8 sm:w-10 h-8 sm:h-10 rounded-full border-2 border-zinc-900"
                 />
               ))}
@@ -71,21 +73,22 @@ const HeroSection = () => {
                   ))}
                 </div>
                 <p className="text-zinc-100 mt-1 text-sm sm:text-base">
-                  <span className="font-medium">1007</span>
+                  <span className="font-medium">1107</span>
                   <span className="text-zinc-400 ml-2">makers launch faster</span>
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <div className="w-full lg:w-2/5 flex justify-center lg:justify-end">
+        <div className="w-full lg:w-2/5 flex flex-col justify-center lg:justify-end items-center ">
           <Image
             src="/techstack.svg"
             alt="Tech Stack"
             width={500}
             height={500}
-            className="w-full max-w-md lg:max-w-full h-auto"
+            className="w-full max-w-md lg:max-w-full h-auto "
           />
+          <h2 className="text-yellow-400 text-2xl md:text-3xl font-semibold">git  clone  <span className=" font-extrabold">snap-launch</span></h2>
         </div>
       </div>
     </div>

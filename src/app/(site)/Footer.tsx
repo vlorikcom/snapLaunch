@@ -10,9 +10,9 @@ export default function Footer() {
                 ⚡ snapLaunch
               </span>
             </div>
-            <p className="text-sm text-zinc-400">Built for makers, by makers</p>
+            <p className="text-sm text-zinc-400">Built for Founders</p>
             <p className="text-sm text-zinc-500">
-              Copyright © 2025 - All rights reserved
+              Copyright © {(new Date()).getFullYear()} - All rights reserved
             </p>
             <div className="inline-flex items-center gap-2 rounded-md border border-zinc-500 bg-zinc-800/50 px-4 py-2 text-xs text-zinc-400">
               Built with ⚡ snapLaunch
@@ -40,7 +40,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://x.com/vlorik"
+                  href="https://x.com/vlorikcom"
                   target="_blank"
                   className="text-zinc-400 hover:text-white"
                 >
@@ -49,14 +49,14 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://github.com/vlorik/snapLaunch"
+                  href="https://github.com/vlorikcom/snapLaunch"
                   target="_blank"
                   className="text-zinc-400 hover:text-white"
                 >
                   Github
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href="https://snapLaunch.vlorik.com/docs"
                   target="_blank"
@@ -64,7 +64,7 @@ export default function Footer() {
                 >
                   Documentation
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
 
@@ -85,7 +85,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="/privacy"
+                  href="/privacy-policy"
                   target="_blank"
                   className="text-zinc-400 hover:text-white"
                 >
@@ -119,28 +119,12 @@ export default function Footer() {
                   VLorik
                 </a>
               </li>
-              <li>
-                <a
-                  href="https://vlorik.com"
-                  className="text-zinc-400 hover:text-white"
-                  target="_blank"
-                >
-                  Code Mentor
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://vlorik.com"
-                  className="text-zinc-400 hover:text-white"
-                  target="_blank"
-                >
-                  React AI
-                </a>
-              </li>
+             
+              
             </ul>
 
             {/* Newsletter Section */}
-            <div className="mt-6">
+            {/* <div className="mt-6">
               <h4 className="mb-3 text-sm font-semibold text-zinc-400">
                 📩 Newsletter for Makers
               </h4>
@@ -160,12 +144,13 @@ export default function Footer() {
                   Subscribe
                 </button>
               </form>
-            </div>
+            </div> */}
+
           </div>
         </div>
 
         <div className="mt-12 border-t border-zinc-800 pt-8 text-center text-sm text-zinc-500">
-          © 2025 snapLaunch. All Rights Reserved. Cooked for you by{" "}
+          © 2025 snapLaunch. All Rights Reserved. Crafted with ❤️ by {" "}
           <a
             href="https://vlorik.com"
             className="text-zinc-400 hover:text-white"

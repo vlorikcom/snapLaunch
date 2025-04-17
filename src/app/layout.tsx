@@ -12,7 +12,7 @@ const bricolageGrotesque = Bricolage_Grotesque({
 export const metadata: Metadata = {
   title: "snapLaunch",
   description:
-    "Open Source Alternative to ShipFast - Launch your startup in days Not in weeks",
+    "Launch your startup in days, not weeks",
   keywords: [
     "saas",
     "boilerplate",

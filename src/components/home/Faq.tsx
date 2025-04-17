@@ -23,11 +23,11 @@ const faqs: FAQItem[] = [
     answer:
       "Built with Next.js, Tailwind, and modern tools, snapLaunch is fully extensible.",
   },
-  {
-    question: "How does it compare to ShipFast?",
-    answer:
-      "ShipFast is paid; snapLaunch gives you similar core features—completely free! Perfect for bootstrappers who want to launch now.",
-  },
+  // {
+  //   question: "How does it compare to ShipFast?",
+  //   answer:
+  //     "ShipFast is paid; snapLaunch gives you similar core features—completely free! Perfect for bootstrappers who want to launch now.",
+  // },
   {
     question: "Does snapLaunch include a database?",
     answer: "Yes! It supports MongoDB and Supabase out of the box.",
@@ -79,7 +79,7 @@ export default function FAQ() {
         <p className="mb-12 text-center text-base text-zinc-500">
           Have another question? Contact us on{" "}
           <a
-            href="https://x.com/vlorik"
+            href="https://x.com/vlorikcom"
             target="_blank"
             className="text-zinc-200 hover:text-white underline"
           >

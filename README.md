@@ -112,9 +112,9 @@ Portainer is included in both development and production setups to help you mana
 
 ---
 
-## Docs
+<!-- ## Docs -->
 
-For full documentation, visit: [snapLaunch Docs](https://snapLaunch.vlorik.com/docs)
+<!-- For full documentation, visit: [snapLaunch Docs](https://snapLaunch.vlorik.com/docs) -->
 
 ## Code of Conduct
 

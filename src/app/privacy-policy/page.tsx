@@ -1,38 +1,15 @@
 import { Metadata } from "next";
 import Link from "next/link";
 
-// CHATGPT PROMPT TO GENERATE YOUR PRIVACY POLICY — replace with your own data 👇
-
-// 1. Go to https://chat.openai.com/
-// 2. Copy paste bellow
-// 3. Replace the data with your own (if needed)
-// 4. Paste the answer from ChatGPT directly in the <pre> tag below
-
-// You are an excellent lawyer.
-
-// I need your help to write a simple privacy policy for my website. Here is some context:
-// - Website: https://gopump.co
-// - Name: Pump
-// - Description: An application responsible for help Personal Trainers and People that like to go to the gym improve their performance.
-// - User data collected: name, email, phone, and payment information
-// - Non-personal data collection: web cookies
-// - Purpose of Data Collection: To know better our clients
-// - Data sharing: we do not share the data with any other parties
-// - Children's Privacy: we do not collect any data from children
-// - Updates to the Privacy Policy: users will be updated by email
-// - Contact information: official@gopump.co
-
-// Please write a simple privacy policy for my site. Add the current date.  Do not add or explain your reasoning. Answer:
-
 export const metadata: Metadata = {
-  title: "Privacy policy",
+  title: "Privacy Policy - VLorik",
 };
 
-const PrivacyPolicy = () => {
+const Page = () => {
   return (
-    <main className="max-w-xl mx-auto">
+    <div className="max-w-xl mx-auto ">
       <div className="p-5">
-        <Link href="/" className="btn btn-ghost">
+        <Link href="/" className="btn btn-ghost flex items-center gap-2 mb-4">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
@@ -45,51 +22,54 @@ const PrivacyPolicy = () => {
               clipRule="evenodd"
             />
           </svg>{" "}
-          Voltar
+          Back
         </Link>
         <h1 className="text-3xl font-extrabold pb-6">
-          Política de Privacidade do
+          Privacy Policy
         </h1>
 
         <pre
           className="leading-relaxed whitespace-pre-wrap"
           style={{ fontFamily: "sans-serif" }}
         >
-          {`Última atualização: 12/12/2023
+{`Last updated: April 15, 2025
 
-Bem-vindo ao Pump (https://gopump.co), um aplicativo dedicado a ajudar treinadores pessoais e entusiastas da fitness a melhorarem seu desempenho. Sua privacidade é de extrema importância para nós. Esta Política de Privacidade delineia os tipos de informações que coletamos, como as utilizamos e as medidas que tomamos para protegê-las.
+Welcome to VLorik (https://vlorik.com), a platform dedicated to building modern, fast, and open developer tools to help founders and builders launch faster. Your privacy is important to us. This Privacy Policy outlines how we handle your data.
 
-1. Coleta e Uso de Informações
+1. Information We Collect
 
-Coletamos os seguintes tipos de informações:
+We may collect the following types of information:
 
-Dados Pessoais: Isso inclui seu nome, endereço de e-mail, número de telefone e informações de pagamento. Coletamos esses dados para entender melhor e atender nossos clientes.
+- Personal Data: Name, email address, and other contact information (only if you voluntarily provide it).
+- Non-Personal Data: Web cookies and usage statistics, used to improve your experience.
 
-Dados Não Pessoais: Utilizamos cookies da web para melhorar sua experiência em nosso site. Esses cookies nos ajudam a entender o comportamento do usuário em nosso site, mas não coletam informações pessoais.
+2. How We Use Your Information
 
-2. Finalidade da Coleta de Dados
+We use collected data to:
+- Understand our users better
+- Improve the usability and performance of our tools
+- Communicate updates (only if you opt-in)
 
-O objetivo principal da coleta de dados é aprimorar nossos serviços e proporcionar uma experiência personalizada para nossos usuários. Entender nossos clientes nos ajuda a melhorar nosso aplicativo e oferecer orientação e suporte mais personalizados.
+3. Data Sharing
 
-3. Compartilhamento e Divulgação de Dados
+We do not share your personal data with any third-party services or organizations. All data is used strictly for internal improvements and analysis.
 
-O Pump respeita sua privacidade. Não compartilhamos seus dados pessoais com terceiros. Qualquer dado coletado é exclusivamente para o propósito de aprimorar nosso serviço e não é compartilhado externamente.
+4. Children’s Privacy
 
-4. Privacidade Infantil
+Our tools are not intended for children under the age of 13. We do not knowingly collect data from children. If we discover data was submitted by someone under 13, we will delete it.
 
-Nossos serviços não são direcionados a crianças menores de 13 anos. Não coletamos intencionalmente informações pessoais de crianças. Se tomarmos conhecimento de que recebemos inadvertidamente informações pessoais de uma criança menor de 13 anos, excluiremos tais informações de nossos registros.
+5. Updates to This Policy
 
-5. Alterações na Nossa Política de Privacidade
+This policy may be updated occasionally. When it does, we’ll update the “Last updated” date on this page. If you’ve opted in to updates, we may also notify you via email.
 
-Podemos atualizar nossa Política de Privacidade de tempos em tempos. Notificaremos você sobre quaisquer alterações, publicando a nova Política de Privacidade nesta página e atualizando a data de "Última atualização". Você também será informado sobre quaisquer mudanças significativas por meio do endereço de e-mail que nos forneceu.
+6. Contact
 
-6. Fale Conosco
-
-Se você tiver alguma dúvida sobre esta Política de Privacidade, entre em contato conosco em official@gopump.co.`}
+For questions or concerns about this Privacy Policy, please contact us at: contact@vlorik.com
+`}
         </pre>
       </div>
-    </main>
+    </div>
   );
 };
 
-export default PrivacyPolicy;
+export default Page;
