@@ -16,7 +16,7 @@ export default function PricingSection() {
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             Save hours of repetitive code,
             <br />
-            ship fast, get profitable!
+            launch fast, get profitable!
           </h2>
           <p className="text-green-500 flex items-center justify-center gap-2">
             <span className="inline-block">🎉</span>

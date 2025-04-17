@@ -4,6 +4,15 @@ const nextConfig = {
   eslint: { ignoreDuringBuilds: true },
   typescript: { ignoreBuildErrors: true },
   pageExtensions: ["ts", "tsx", "mdx"],
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "*",
+      },
+    ],
+  },
+
   async headers() {
     return [
       {

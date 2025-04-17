@@ -83,7 +83,7 @@ export default function TestimonialsPage() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            1209 makers built AI tools, SaaS, and more
+          1107 makers built AI tools, SaaS, and more
           </h1>
           <p className="text-gray-400 text-lg">
             They made their first $ online, and some even quit their 9-5!
