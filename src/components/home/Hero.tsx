@@ -88,7 +88,7 @@ const HeroSection = () => {
             height={500}
             className="w-full max-w-md lg:max-w-full h-auto "
           />
-          <h2 className="text-yellow-400 text-2xl md:text-3xl font-semibold">git  clone  <span className=" font-extrabold">snap-launch</span></h2>
+          <Link href={'https://github.com/vlorikcom/snapLaunch'} target="_blank" className="text-yellow-400 text-2xl md:text-3xl font-semibold">git  clone  <span className=" font-extrabold">snap-launch</span></Link>
         </div>
       </div>
     </div>
