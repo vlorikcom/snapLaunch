@@ -34,7 +34,7 @@ const Page = () => {
         >
 {`Last updated: April 15, 2025
 
-Welcome to SnapLaunch by VLorik! These Terms of Service ("Terms") govern your access to and use of SnapLaunch (https://vlorik.com/snaplaunch). By using SnapLaunch, you agree to these Terms.
+Welcome to SnapLaunch by VLorik! These Terms of Service ("Terms") govern your access to and use of SnapLaunch (https://snaplaunch.vlorik.com). By using SnapLaunch, you agree to these Terms.
 
 1. Use of the Service
 

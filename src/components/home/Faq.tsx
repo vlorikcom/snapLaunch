@@ -37,11 +37,11 @@ const faqs: FAQItem[] = [
     answer:
       "Yes! We have an active Discord community where founders help each other grow.",
   },
-  {
-    question: "What if I need help?",
-    answer:
-      "We have detailed documentation, video tutorials, and community support to guide you.",
-  },
+  // {
+  //   question: "What if I need help?",
+  //   answer:
+  //     "We have detailed documentation, video tutorials, and community support to guide you.",
+  // },
   {
     question: "Can I contribute to snapLaunch?",
     answer:

@@ -92,7 +92,7 @@ export default function Footer() {
                   Privacy Policy
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href="/licenses"
                   target="_blank"
@@ -100,7 +100,7 @@ export default function Footer() {
                 >
                   Licenses
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
 
