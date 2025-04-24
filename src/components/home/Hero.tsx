@@ -3,6 +3,7 @@ import { Zap } from "lucide-react";
 import Image from "next/image";
 
 const HeroSection = () => {
+  //bg-[#FFBE1A] hover:bg-yellow-500
   return (
     <div className="bg-[#212121] mt-6 min-h-screen flex items-center px-4 sm:px-6 md:px-8 lg:px-12">
       <div className="max-w-7xl w-full mx-auto py-16 flex flex-col lg:flex-row justify-between items-center">
@@ -34,7 +35,7 @@ const HeroSection = () => {
             href="https://github.com/vlorikcom/snapLaunch"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex mt-5 items-center justify-center gap-2 bg-[#FFBE1A] hover:bg-yellow-500 text-black px-8 sm:px-20 py-3 rounded-xl font-medium text-lg mb-6 duration-300 transition-colors"
+            className="inline-flex mt-5 items-center justify-center gap-2 bg-primary hover:bg-primary/90 text-black px-8 sm:px-20 py-3 rounded-xl font-medium text-lg mb-6 duration-300 transition-colors"
           >
             <Zap fill="#000000" className="w-5 h-5" />
             Get snapLaunch

@@ -1,3 +1,5 @@
+import Link from "next/link";
+//bg-[#FFB800]
 export default function CTA() {
   return (
     <section className="relative bg-[#0F0F0F] px-4 py-24 md:py-32">
@@ -9,11 +11,11 @@ export default function CTA() {
           Don&apos;t waste time on Stripe subscriptions or designing a pricing
           section...
         </p>
-        <a
+        <Link
           href="https://github.com/vlorikcom/snapLaunch"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 rounded-lg bg-[#FFB800] px-6 py-3 text-base font-medium text-black transition-colors hover:bg-[#FFB800]/90"
+          className="inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-base font-medium text-black transition-colors hover:bg-[#FFB800]/90"
         >
           <svg
             viewBox="0 0 24 24"
@@ -30,7 +32,7 @@ export default function CTA() {
             />
           </svg>
           Get snapLaunch
-        </a>
+        </Link>
       </div>
     </section>
   );
