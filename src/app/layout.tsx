@@ -11,9 +11,7 @@ const bricolageGrotesque = Bricolage_Grotesque({
 
 export const metadata: Metadata = {
   title: "snapLaunch",
-  icons: {
-    icon: "./favicon.ico", // relative to public/
-  },
+ 
   description:
     "Launch your startup in days, not weeks",
   keywords: [
