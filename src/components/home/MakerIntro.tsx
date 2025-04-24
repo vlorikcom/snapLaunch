@@ -3,7 +3,7 @@ export default function MakerIntro() {
     <div className="bg-[#212121] mb-8 text-gray-300 p-8">
       <div className="max-w-2xl mx-auto space-y-8">
         <div className="flex flex-col md:flex-row gap-8 items-start">
-          <div className="relative w-[200px] h-[200px] flex-shrink-0">
+          <div className="relative w-[200px] h-[200px] shrink-0">
             <div
               className="absolute bg-primary inset-0 rounded-lg flex flex-col items-center justify-center p-6 text-center"
             >

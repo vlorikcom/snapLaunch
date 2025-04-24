@@ -173,7 +173,7 @@ export default function FeaturesSection() {
               <div className="space-y-6">
                 {feature.content.features.map((item, index) => (
                   <div key={index} className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-green-500 mt-1 flex-shrink-0" />
+                    <Check className="w-5 h-5 text-green-500 mt-1 shrink-0" />
                     <span className="text-lg text-gray-300">{item}</span>
                   </div>
                 ))}

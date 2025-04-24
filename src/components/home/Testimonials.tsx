@@ -96,7 +96,7 @@ export default function TestimonialsPage() {
               key={index}
               className="bg-zinc-900 border-[1.4px] border-zinc-800 p-6 flex flex-col"
             >
-              <div className="flex-grow">
+              <div className="grow">
                 {testimonial.rating && (
                   <div className="flex gap-1 mb-4">
                     {[...Array(testimonial.rating)].map((_, i) => (

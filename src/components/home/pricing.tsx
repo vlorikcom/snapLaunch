@@ -74,7 +74,7 @@ export default function PricingSection() {
 function Feature({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex items-start gap-3">
-      <Check className="w-5 h-5 text-green-500 flex-shrink-0" />
+      <Check className="w-5 h-5 text-green-500 shrink-0" />
       <span className="text-zinc-300">{children}</span>
     </div>
   );
