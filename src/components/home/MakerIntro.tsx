@@ -7,7 +7,7 @@ export default function MakerIntro() {
             <div
               className="absolute bg-primary inset-0 rounded-lg flex flex-col items-center justify-center p-6 text-center"
             >
-              <h2 className="text-9xl">5</h2>
+              <h2 className="text-9xl text-black">5</h2>
             </div>
           </div>
 

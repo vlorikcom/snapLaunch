@@ -66,7 +66,7 @@ const HeroSection = () => {
                   {[1, 2, 3, 4, 5].map((star) => (
                     <svg
                       key={star}
-                      className="w-4 sm:w-5 h-4 sm:h-5 text-yellow-400 fill-current"
+                      className="w-4 sm:w-5 h-4 sm:h-5 text-primary fill-current"
                       viewBox="0 0 24 24"
                     >
                       <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
@@ -89,7 +89,7 @@ const HeroSection = () => {
             height={500}
             className="w-full max-w-md lg:max-w-full h-auto "
           />
-          <Link href={'https://github.com/vlorikcom/snapLaunch'} target="_blank" className="text-yellow-400 text-2xl md:text-3xl font-semibold">git  clone  <span className=" font-extrabold">snap-launch</span></Link>
+          <Link href={'https://github.com/vlorikcom/snapLaunch'} target="_blank" className="text-primary text-2xl md:text-3xl font-semibold">git  clone  <span className=" font-extrabold">snap-launch</span></Link>
         </div>
       </div>
     </div>
