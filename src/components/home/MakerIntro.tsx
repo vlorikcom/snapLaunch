@@ -5,9 +5,9 @@ export default function MakerIntro() {
         <div className="flex flex-col md:flex-row gap-8 items-start">
           <div className="relative w-[200px] h-[200px] shrink-0">
             <div
-              className="absolute bg-primary inset-0 rounded-lg flex flex-col items-center justify-center p-6 text-center"
+              className="absolute bg-foreground inset-0 rounded-lg flex flex-col items-center justify-center p-6 text-center"
             >
-              <h2 className="text-9xl text-black">5</h2>
+              <h2 className="text-9xl text-primary">5</h2>
             </div>
           </div>
 
