@@ -12,7 +12,7 @@ export default function PricingSection() {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
-          <p className="text-[#FFBE18] font-medium mb-4">Pricing</p>
+          <p className="text-primary font-medium mb-4">Pricing</p>
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             Save hours of repetitive code,
             <br />

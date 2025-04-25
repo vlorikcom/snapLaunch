@@ -31,8 +31,7 @@ export default function Navbar() {
         <div className="flex items-center">
           <Link href="/" className="flex items-center gap-2">
             <Zap
-              className="h-10 w-10"
-              fill="#FFBE18"
+              className="h-10 w-10 fill-primary text-primary"
               stroke="black"
               strokeWidth={0}
             />
